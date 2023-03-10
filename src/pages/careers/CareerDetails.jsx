@@ -4,6 +4,7 @@ import {useParams, useLoaderData } from "react-router-dom";
 export default function CareerDetails() {
   const { id } = useParams();
   const career = useLoaderData();
+  console.log(id);
 
   return(
     <div className="career-details">
